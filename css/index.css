@@ -1,0 +1,253 @@
+
+/****************header******************/
+header,nav,section{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+header{
+    margin-top: 50px;
+}
+.logo{
+    width: 208px; height: 44px;  float: left; /*margin-right: 40px;*/
+
+}
+.logo img{
+    width: 208px;
+    height: 44px;
+}
+.hd_input{
+
+    width: 414px;  height: 35px;  float: left;  margin-left: 40px;
+}
+.hd_input input{
+    width: 370px;  height: 35px;  border:2px solid #0aa1ed;  float: left;
+    margin-top:4px;
+}
+.hd_input span{
+    width: 40px;  height: 39px;  float: left;  background-color:#0aa1ed ;
+    margin-top:4px;
+}
+.hd_login{
+    height: 44px;  float: right;
+}
+.hd_login ul li{
+    float: left;  height: 35px;  line-height: 35px;
+}
+.hd_login ul li i{
+    float: left;  padding-top: 5px;
+}
+.hd_login ul li i img{
+    padding-right:15px ;  }
+.hd_login ul li span{
+    float: left;  padding-right: 15px;  }
+.hd_login ul li a{
+    float: left;  padding-right: 15px;  }
+/*.hd_login ul li i{*/
+
+/*display: block;*//***将元素转为块级元素***/
+/*display: inline-block;*//********将元素转为行内块级元素***********/
+/*display: inline;*//**//***********将元素转为行内元素***********/
+/*}*/
+/**********nav部分**********/
+nav{
+   margin: 47px auto 20px;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    font-size: 16px;
+    padding-right: 40px;
+}
+/*******banner部分********/
+#banner{
+
+    height: 400px;
+}
+.banner_box{
+    width:1000px;
+    height:400px;
+    overflow: hidden;
+    position: relative;
+}
+.banner_box ul{
+    width: 4000px;
+    position: absolute;
+    left: 0;
+}
+.banner_box ul li{
+    float: left;
+}
+.banner_box span{
+    position: absolute;
+    width: 25px;
+    height: 56px;
+    top:50%;
+    margin-top:-35px;
+    line-height: 56px;
+    background-color: #d1d6e5;
+}
+.banner_box span img{
+    margin: 15px auto;
+    display: block;
+}
+.banner_box .arrow_left{
+    left:20px;
+}
+.banner_box .arrow_right{
+    right:20px;
+}
+.banner_box .banner_list{
+    position: absolute;
+    left:50%;
+    bottom: 20px;
+    margin-left:-50px;
+
+}
+.banner_box .banner_list li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FFF;
+    margin: 0 3px;
+}
+.banner_box .banner_list .active{
+    background-color: #0aa1ed;
+}
+
+/***********1F************/
+.main{
+    margin-top:30px;
+}
+.main .floor_head{
+    width: 100%;
+    border-bottom:2px solid #dddddd;
+}
+.main .floor_head img{
+    float: left;
+    padding-right: 20px;
+    margin-top:6px;
+    margin-bottom: 10px;
+}
+.main .floor_head p{
+    float: left;
+    font-size: 24px;
+}
+.floor_content{
+    margin-top: 8px;
+    width: 100%;
+}
+.content_left{
+    float: left;
+    background-color: #e8e8e8;
+    position: relative;
+    width: 560px;
+    height: 380px;
+}
+ .product{
+    float: left;
+    margin:50px 0 0 60px;
+}
+.pd_title{
+    font-size: 24px;
+    color: #3e3e3a;
+    width: 210px;
+    line-height: 40px;
+}
+.pd_des{
+    width: 260px;
+    color: #363435;
+    letter-spacing: 1px;
+}
+ .product span{
+    font-size: 22px;
+    color: #07a2ed;
+    display: block;
+    margin-top:20px;
+}
+.floor_btn{
+    background-color: #1cabf3;
+    padding: 10px 0px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    display: block;
+    width: 130px;
+    text-align: center;
+    margin-top:10px;
+}
+.floor_content img{
+    position: absolute;
+    right: 10px;
+    top:60px;
+    width: 400px;
+}
+
+/**********产品左边**********/
+.content_right{
+    width: 420px;
+    float: right;
+    position:relative;
+    height: 380px;
+    background-color:#e8e8e8 ;
+}
+.content_right img{
+    width: 320px;
+    height: 230px;
+    top: 150px;
+    right: 20px;
+}
+.floor_footer{
+    margin-top:10px;
+}
+.foot_product .foot_li1{
+    width: 380px;
+    margin:0;
+}
+.foot_product li{
+    float: left;
+    height: 230px;
+    width:196px;  margin-left:10px;  background-color: #e8e8e8;
+}
+.foot_product .foot_li1 .ft_fonts{
+    width: 130px;
+    margin-top:40px;  margin-left:25px;  float: left;
+}
+.foot_li1 .ft_fonts .ft_title{
+    font-size: 20px;
+}
+.foot_li1 .ft_fonts span{
+    font-size: 18px;  color: #1eacf3;  font-weight:500;
+}
+.foot_product .foot_li1 img{
+    float: left;  margin-top:40px;  margin-left: 10px;
+    width: 200px;
+    height: 150px;
+}
+.foot_product li img{
+    height: 130px;
+}
+.foot_product li  .ft_content{
+    font-size: 12px;
+    text-align: center;
+}
+.foot_product li  span{
+    font-size: 20px;
+    color: #17a8f1;
+    display: block;
+    text-align: center;
+    padding: 8px 0;
+}
+.foot_product .ft_btn{
+    display: block;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #07a2ed;
+    width: 100px;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+
+

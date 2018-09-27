@@ -1,0 +1,35 @@
+header,section{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+header .logo{
+    float: left;
+    margin-top:18px;
+}
+header p{
+    float: left;
+    font-size: 20px;
+    margin-top:28px;
+    margin-left: 20px;
+}
+#login{
+    width: 1280px;
+    height: 565px;
+    background: url("../images/register/bg.png")no-repeat;
+    background-size: cover;
+    margin: 40px auto 0;
+    border:1px solid red;
+    position: relative;
+}
+.login_form{
+    position: absolute;
+    width: 285px;
+    height: 294px;
+    background: rgba(0,0,0,0.2);
+    top:115px;
+    right:115px;
+    border-radius: 2px;
+    /*opacity: 0.2;*/
+    color: #fff;
+}
